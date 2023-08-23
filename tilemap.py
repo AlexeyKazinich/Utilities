@@ -19,7 +19,7 @@ class Tile:
             self.rect = Rectangle((self.pos[0] + offset[0])*self.tile_size,(self.pos[1]+offset[1])*self.tile_size,self.tile_size,self.tile_size,self.screen,pygame.Color(255,0,0,255))
             self.rect.draw()
         
-        else:
+        else: 
             self.entity.draw()
         
 
